@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="لمسة دفا – هدايا يدوية تحمل روح الدفء. علامة أردنية متخصصة في الشموع، الهدايا الخشبية، وإكسسوارات الكروشيه." />
+  <title>لمسة دفا | Lamsat Dafa</title>
+
+  <!-- Google Font: Amiri -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+
+      <!-- Wax-seal logo mark -->
+      <a href="#home" class="nav-logo" aria-label="لمسة دفا – الصفحة الرئيسية">
+        <span class="seal">✦</span>
+        <span class="logo-text">لمسة دفا</span>
+      </a>
+
+      <!-- Desktop links -->
+      <nav aria-label="القائمة الرئيسية">
+        <ul class="nav-links">
+          <li><a href="#home">الرئيسية</a></li>
+          <li><a href="#about">من نحن</a></li>
+          <li><a href="#products">منتجاتنا</a></li>
+          <li><a href="#gallery">معرض</a></li>
+          <li><a href="#contact" class="nav-cta">تواصلي معنا</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hamburger (mobile) -->
+      <button class="hamburger" id="hamburger" aria-label="فتح القائمة" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Mobile dropdown -->
+    <nav class="mobile-nav" id="mobileNav" aria-hidden="true">
+      <ul>
+        <li><a href="#home">الرئيسية</a></li>
+        <li><a href="#about">من نحن</a></li>
+        <li><a href="#products">منتجاتنا</a></li>
+        <li><a href="#gallery">معرض</a></li>
+        <li><a href="#contact">تواصلي معنا</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- ============================================================
+       HERO SECTION  →  uses: hero.jpg
+  ============================================================ -->
+  <section class="hero" id="home">
+    <!-- Background image (hero.jpg only) -->
+    <div class="hero-media">
+      <img src="hero.jpg" alt="هدايا يدوية من لمسة دفا" class="hero-img" />
+      <div class="hero-veil"></div>
+    </div>
+
+    <!-- Centered text block -->
+    <div class="hero-body">
+      <p class="hero-eyebrow">✦ مصنوع بحبٍّ في الأردن ✦</p>
+      <h1 class="hero-title">لمسة دفا</h1>
+      <p class="hero-tagline">هدايا يدوية تحمل روح الدفء</p>
+      <a href="#products" class="btn btn-gold">تسوق الآن</a>
+    </div>
+
+    <!-- Scroll nudge -->
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <span class="scroll-line"></span>
+      <span class="scroll-label">اكتشفي</span>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       ABOUT SECTION  →  uses: about.jpg
+  ============================================================ -->
+  <section class="about" id="about">
+    <div class="wrap">
+      <div class="about-grid">
+
+        <!-- Text side (right in RTL) -->
+        <div class="about-text fade-up">
+          <p class="eyebrow">✦ من نحن</p>
+          <h2 class="section-heading">قصتنا</h2>
+          <div class="gold-rule"></div>
+          <p class="about-body">
+            لمسة دفا هي علامة أردنية متخصصة في صناعة الهدايا والمنتجات اليدوية المصنوعة بحب.
+            كل قطعة تحمل قصة ودفء خاص يعكس جمال التفاصيل اليدوية.
+          </p>
+          <a href="#contact" class="btn btn-outline">تواصلي معنا</a>
+        </div>
+
+        <!-- Image side (left in RTL) -->
+        <div class="about-visual fade-up delay-1">
+          <div class="frame-wrap">
+            <img src="about.jpg" alt="ورشة لمسة دفا اليدوية" />
+            <!-- Decorative offset border -->
+            <div class="frame-border" aria-hidden="true"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       PRODUCTS SECTION  →  uses: candle.jpg  wood.jpg  crochet.jpg
+  ============================================================ -->
+  <section class="products" id="products">
+    <div class="wrap">
+
+      <div class="section-header fade-up">
+        <p class="eyebrow">✦ منتجاتنا</p>
+        <h2 class="section-heading">ماذا نصنع</h2>
+        <div class="gold-rule centered"></div>
+      </div>
+
+      <div class="products-grid">
+
+        <!-- Card 1: Candles -->
+        <article class="product-card fade-up delay-1">
+          <div class="card-img-wrap">
+            <img src="candle.jpg" alt="شموع معطرة يدوية" />
+            <span class="card-tag">جديد</span>
+          </div>
+          <div class="card-body">
+            <h3>شموع معطرة يدوية</h3>
+            <p>شموع سوي مصنوعة يدوياً بعطور فاخرة، مزيّنة بالصدف والزينة البحرية – هدية تُضيء المكان وتُعطّره.</p>
+            <a href="#contact" class="btn btn-card">اطلب الآن</a>
+          </div>
+        </article>
+
+        <!-- Card 2: Wood Gifts -->
+        <article class="product-card fade-up delay-2">
+          <div class="card-img-wrap">
+            <img src="wood.jpg" alt="هدايا خشبية محفورة" />
+          </div>
+          <div class="card-body">
+            <h3>هدايا خشبية محفورة</h3>
+            <p>قطع خشبية طبيعية محفورة بالأسماء والتواريخ والمقتطفات – ذكرى لا تُنسى لكل مناسبة.</p>
+            <a href="#contact" class="btn btn-card">اطلب الآن</a>
+          </div>
+        </article>
+
+        <!-- Card 3: Crochet -->
+        <article class="product-card fade-up delay-3">
+          <div class="card-img-wrap">
+            <img src="crochet.jpg" alt="إكسسوارات كروشيه" />
+          </div>
+          <div class="card-body">
+            <h3>إكسسوارات كروشيه</h3>
+            <p>دمى ومفاتيح وإكسسوارات كروشيه مصنوعة بخيوط عالية الجودة – كل قطعة فريدة وحصرية.</p>
+            <a href="#contact" class="btn btn-card">اطلب الآن</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       GALLERY SECTION  →  uses: gallery1.jpg  gallery2.jpg  gallery3.jpg
+  ============================================================ -->
+  <section class="gallery" id="gallery">
+    <div class="wrap">
+
+      <div class="section-header fade-up">
+        <p class="eyebrow">✦ أعمالنا</p>
+        <h2 class="section-heading">معرض الصور</h2>
+        <div class="gold-rule centered"></div>
+      </div>
+
+      <div class="gallery-mosaic">
+        <div class="gallery-item tall fade-up delay-1">
+          <img src="gallery1.jpg" alt="أعمال لمسة دفا – معرض صور ١" />
+          <div class="gallery-sheen" aria-hidden="true"><span>✦</span></div>
+        </div>
+        <div class="gallery-item fade-up delay-2">
+          <img src="gallery2.jpg" alt="أعمال لمسة دفا – معرض صور ٢" />
+          <div class="gallery-sheen" aria-hidden="true"><span>✦</span></div>
+        </div>
+        <div class="gallery-item fade-up delay-3">
+          <img src="gallery3.jpg" alt="أعمال لمسة دفا – معرض صور ٣" />
+          <div class="gallery-sheen" aria-hidden="true"><span>✦</span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       CONTACT SECTION
+  ============================================================ -->
+  <section class="contact" id="contact">
+    <div class="wrap">
+
+      <div class="section-header fade-up">
+        <p class="eyebrow">✦ تواصلي معنا</p>
+        <h2 class="section-heading">نحب نسمع منك</h2>
+        <div class="gold-rule centered"></div>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Info cards -->
+        <div class="contact-info fade-up delay-1">
+
+          <div class="info-card">
+            <div class="info-icon">📱</div>
+            <h3>واتساب</h3>
+            <p>تواصلي معنا مباشرة لأي استفسار أو طلب</p>
+            <a href="https://wa.me/9627XXXXXXXX"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn btn-whatsapp">
+              💬 &nbsp;+962 7X XXX XXXX
+            </a>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">⏰</div>
+            <h3>ساعات العمل</h3>
+            <p>السبت – الخميس<br />٩ صباحاً – ٩ مساءً</p>
+          </div>
+
+        </div>
+
+        <!-- Contact form -->
+        <div class="form-wrap fade-up delay-2">
+          <form class="contact-form" id="contactForm" novalidate>
+
+            <div class="field-group">
+              <label for="name">الاسم</label>
+              <input type="text" id="name" name="name"
+                     placeholder="اكتبي اسمك هنا…" required autocomplete="name" />
+              <span class="field-error" id="nameError"></span>
+            </div>
+
+            <div class="field-group">
+              <label for="phone">رقم الهاتف</label>
+              <input type="tel" id="phone" name="phone"
+                     placeholder="+962 7X XXX XXXX" required autocomplete="tel" />
+              <span class="field-error" id="phoneError"></span>
+            </div>
+
+            <div class="field-group">
+              <label for="message">رسالتك</label>
+              <textarea id="message" name="message" rows="5"
+                        placeholder="اكتبي طلبك أو استفسارك هنا…" required></textarea>
+              <span class="field-error" id="messageError"></span>
+            </div>
+
+            <button type="submit" class="btn btn-gold btn-full">
+              إرسال الرسالة ✦
+            </button>
+
+          </form>
+
+          <!-- Success state (hidden by default) -->
+          <div class="form-success" id="formSuccess" aria-live="polite">
+            <div class="success-seal">✦</div>
+            <h3>شكراً لك!</h3>
+            <p>سنتواصل معكِ قريباً إن شاء الله 🌸</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-seal" aria-hidden="true">✦</div>
+      <p class="footer-logo">لمسة دفا</p>
+      <p class="footer-tagline">صنع بحبٍّ في الأردن 🇯🇴</p>
+      <div class="footer-rule"></div>
+      <p class="footer-copy">© 2024 لمسة دفا – جميع الحقوق محفوظة</p>
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
